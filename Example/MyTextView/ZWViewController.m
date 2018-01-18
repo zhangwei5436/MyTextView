@@ -26,7 +26,7 @@
 {
     [super viewDidLoad];
     self.title = @"测试";
-    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.view.backgroundColor = [UIColor brownColor];
 
     [self makeWhiteView];
 }
