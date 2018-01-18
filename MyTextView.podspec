@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyTextView'
-  s.version          = '0.0.3'
-  s.summary          = '自定义 MyTextView'
+  s.version          = '0.0.4'
+  s.summary          = '自定义MyTextView'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
