@@ -38,10 +38,10 @@
 
 /* Begin PBXFileReference section */
 		073121538BB344DC88CFA413 /* Pods_MyTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		12403EC06A1ACEDCC5EE600F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1860E126991AA657DC3566E3 /* MyTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyTextView.podspec; path = ../MyTextView.podspec; sourceTree = "<group>"; };
+		12403EC06A1ACEDCC5EE600F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1860E126991AA657DC3566E3 /* MyTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyTextView.podspec; path = ../MyTextView.podspec; sourceTree = "<group>"; };
 		31695B9D9A07AFAE43749152 /* Pods_MyTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		330475EE52DFCFE72B326B4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		330475EE52DFCFE72B326B4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		466A836705D401667B3AF45A /* Pods-MyTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTextView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTextView_Example/Pods-MyTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MyTextView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTextView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -545,6 +545,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyTextView/MyTextView-Prefix.pch";
 				INFOPLIST_FILE = "MyTextView/MyTextView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,6 +561,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyTextView/MyTextView-Prefix.pch";
 				INFOPLIST_FILE = "MyTextView/MyTextView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
