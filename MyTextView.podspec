@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyTextView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MyTextView.'
+  s.version          = '0.0.1'
+  s.summary          = '自定义 MyTextView'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 可以设置占位字符，设置最大字符，等一些自定义视图
                        DESC
 
   s.homepage         = 'https://github.com/zhangwei5436/MyTextView'
