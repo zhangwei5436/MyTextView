@@ -1,8 +1,8 @@
 {
   "name": "MyTextView",
-  "version": "0.1.0",
-  "summary": "A short description of MyTextView.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.2",
+  "summary": "自定义 MyTextView",
+  "description": "TODO: 可以设置占位字符，设置最大字符，等一些自定义视图",
   "homepage": "https://github.com/zhangwei5436/MyTextView",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zhangwei5436/MyTextView.git",
-    "tag": "0.1.0"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
